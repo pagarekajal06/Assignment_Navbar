@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style media="screen">
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .logo{
+      margin-left: 20%;
+      font-family: sans-serif;
+    }
+    ul li a{
+      font-size: 130%;
+      color: black;
+      margin-top: 20px;
+      list-style-type: none;
+      text-decoration: none;
+
+    }
+    ul li a:hover{
+      color: pink;
+    }
+    li{
+
+      display: inline-flex;
+      padding: 20px;
+    }
+
+    .container{
+      height: auto;
+      width: 100%;
+      background-color: yellow;
+    }
+    @media (max-width: 528px) {
+      .navbar_parent{
+
+        margin-top: 30px;
+        width:50%;
+        display: contents;
+        box-shadow: 20 30 1px gray;
+        line-height: 50%;
+        height:  50%;
+        text-align: left;
+        text-indent: 18%;
+      }
+
+    }
+
+    </style>
+
+
+</head>
+<body>
+     <header>
+       <div class="container">
+      <table width="100%">
+        <tr>
+          <td>
+          </td>
+        </tr>
+        <tr width="50%">
+          <td>
+            <div class="logo">
+              <h1>Wacom</h1>
+            </div>
+          </td>
+          <td align="right">
+            <nav class="navbar">
+              <ul class="navbar_parent">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Account</a></li>
+              </ul>
+
+            </nav>
+
+          </td>
+        </tr>
+      </table>
+
+
+
+    </div>
+</header>
+</body>
+</html>
